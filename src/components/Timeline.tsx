@@ -7,7 +7,7 @@ export default function Timeline({}: Props) {
 
       <div className="flex flex-col px-10">
       <div>
-        <p className="category-header text-center">My Story</p>
+        <p className="category-header">My Story</p>
       </div>
 
       <TimelineItem year={"2014"} body={`

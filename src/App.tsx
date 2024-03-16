@@ -16,7 +16,7 @@ function App() {
       <div className="mx-auto max-w-screen-xl text-gray-300 md:justify-center lg:py-10">
         <div className="flex flex-col md:flex-row duration-75">
           <div className="md:w-full my-10 mx-10 lg:w-1/2">
-            <p className="text-4xl font-semibold p-1 hover:glow duration-200">Jon-Michael Hartway </p>
+            <p className="text-4xl font-semibold p-1 hover:text-glow duration-200">Jon-Michael Hartway </p>
             <p className="text-xl font-bold text-gray-400 p-1">Software Engineer</p>
             <p className="text-lg font-light text-gray-400">Building high performance, rock-solid applications!</p>
 
@@ -40,8 +40,10 @@ function App() {
 
           <div className="md:w-full px-10 my-10 lg:w-1/2">
             <ExperienceSection/>
-            <ProjectSection/>
           </div>
+        </div>
+        <div className="px-10">
+        <ProjectSection/>
         </div>
         <Timeline/>
     </div>
