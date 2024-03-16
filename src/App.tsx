@@ -3,6 +3,7 @@ import './index.css'
 import SocialLink from './components/SocialLink'
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faBlog} from '@fortawesome/free-solid-svg-icons'
+import { Analytics } from "@vercel/analytics/react"
 import ProjectSection from './components/ProjectSection'
 import ExperienceSection from './components/ExperienceSection'
 import Timeline from './components/Timeline'
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <>
+      <Analytics/>
       <div className="mx-auto max-w-screen-xl text-gray-300 md:justify-center lg:py-10">
         <div className="flex flex-col md:flex-row duration-75">
           <div className="md:w-full my-10 mx-10 lg:w-1/2">
