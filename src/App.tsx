@@ -1,12 +1,11 @@
 import './App.css'
 import './index.css'
-import ExperienceEntry from './components/ExperienceEntry'
-import Link from './components/Link'
 import SocialLink from './components/SocialLink'
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faBlog} from '@fortawesome/free-solid-svg-icons'
-import ProjectEntry from './components/ProjectEntry'
-import TimelineItem from './components/TimelineItem'
+import ProjectSection from './components/ProjectSection'
+import ExperienceSection from './components/ExperienceSection'
+import Timeline from './components/Timeline'
 
 function App() {
 
@@ -29,77 +28,19 @@ function App() {
             <div>
               <p className="category-header">About</p>
             </div>
-            <p>
-              Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
-            </p>
+            <div>
+              <div className="text-2xl pr-2 font-semibold">
+              Hi
+              </div>
+              I'm Jon-Michael, life long learner, entrepreur with a passion for technology and programming. I've been programming as a hobby as well as using it for business development for nearly a decade and I still find myself egar to learn new skills!
+            </div>
           </div>
-
-
-
 
           <div className="md:w-full px-10 my-10 lg:w-1/2">
-            <div className="py-10">
-              <div>
-                <p className="category-header">Experience</p>
-              </div>
-              <ExperienceEntry 
-              title={"Software Engineer"} 
-              body={"Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat."} 
-              company={"Deez nuts"} 
-              duration={"March 2012 - January 2020"}
-              skills={[
-                "c++",
-                "python"
-              ]}
-              >
-                <Link url="http://example.com/" name="Example-1"/>
-                <Link url="http://example.com/" name="Example-2"/>
-                <Link url="http://example.com/" name="Example-3"/>
-              </ExperienceEntry>
-
-              <ExperienceEntry 
-              title={"Software Engineer"} 
-              body={"Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat."} 
-              company={"Deez nuts"} 
-              duration={"March 2012 - January 2020"}
-              skills={[
-                "ur mom",
-                "sex"
-              ]}
-
-              />
-            </div>
-
-            <div>
-              <p className="category-header">Projects</p>
-            </div>
-
-            <ProjectEntry title={"Some Project"} body={"Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat."} skills={["C++","Python"]}>
-
-              <Link url={"www.example.com"} name="Github"/>
-
-            </ProjectEntry>
-            
-            <div className="py-20"/>
-
-
-
+            <ExperienceSection/>
+            <ProjectSection/>
           </div>
-
-
-
-        </div>
-        <div className="flex flex-col px-10">
-        <div>
-          <p className="category-header text-center">My Story</p>
-        </div>
-
-        <TimelineItem year={"2014"} body={`
-        Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
-        `}/>
-        <TimelineItem year={"2015"} body={`
-        Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
-        `}/>
+          <Timeline/>
         </div>
     </div>
 
