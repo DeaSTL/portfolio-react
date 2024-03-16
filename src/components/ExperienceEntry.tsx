@@ -1,9 +1,10 @@
-import { ReactNode } from 'react'
+import { DOMElement, ReactNode } from 'react'
+import SkillsSection from './SkillsSection'
 
 type Props = {
   title:string
   company:string
-  body:string
+  body:ReactNode
   duration:string
   skills?:string[]
   children?:ReactNode
@@ -16,15 +17,7 @@ export default function ExperienceEntry({title,company,body,duration,skills,chil
       <div>
         <p className="text-lg">{title}  ─ <span className="text-sm text-gray-400">{company}</span></p>
         <p className="text-sm text-gray-500">{body}</p>
-        <div className="mt-4"> 
-        {
-          skills?.map((skill)=>{
-            return (
-              <span className="rounded-full p-2 text-xs bg-emerald-900 bg-opacity-20 text-green-300 mr-2">{skill}</span>
-            )
-          })
-        }
-        </div>
+        <SkillsSection skills={skills}/>
         <div className="flex flex-row">
           {children}
         </div>

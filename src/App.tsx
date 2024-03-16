@@ -19,10 +19,10 @@ function App() {
             <p className="text-lg font-light text-gray-400">Building high performance, rock-solid applications!</p>
 
             <div className="md:py-40 py-10">
-              <SocialLink icon={faGithub}  url="www.example.com"/>
-              <SocialLink icon={faLinkedin}  url="www.example.com"/>
-              <SocialLink icon={faTwitter}  url="www.example.com"/>
-              <SocialLink icon={faBlog}  url="www.example.com"/>
+              <SocialLink icon={faGithub}  url="https://github.com/DeaSTL"/>
+              <SocialLink icon={faLinkedin}  url="https://www.linkedin.com/in/jon-michael-h/"/>
+              <SocialLink icon={faTwitter}  url="https://twitter.com/0xdeafc0de"/>
+              <SocialLink icon={faBlog}  url="https://jonhartway.blog/"/>
             </div>
 
             <div>
@@ -40,8 +40,8 @@ function App() {
             <ExperienceSection/>
             <ProjectSection/>
           </div>
-          <Timeline/>
         </div>
+        <Timeline/>
     </div>
 
     </>
