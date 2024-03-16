@@ -1,4 +1,4 @@
-import { DOMElement, ReactNode } from 'react'
+import {ReactNode } from 'react'
 import SkillsSection from './SkillsSection'
 
 type Props = {
