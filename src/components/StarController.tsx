@@ -23,7 +23,7 @@ export default function StarController({starCount = 100}: Props) {
         left: `${Math.random() * 100}%`,
         top:`${Math.random() * 400}vh`,
         size: `${Math.random() * 2 + 1}px`,
-        animationDuration: `${Math.random() * 4 + 3}s`
+        animationDuration: `${Math.random() * 2 + 1}s`
       }
     })
 

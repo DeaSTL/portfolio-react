@@ -54,6 +54,16 @@ export default function ProjectSection({}: Props) {
 
       </ProjectEntry>
 
+      <ProjectEntry 
+      title={"HTMX Flappybird"} 
+      body={<>
+        This is a realtime game that I made using HTML DOM elements and the trending javascript library: HTMX. It uses an "outside the box" method of server side rendering elements on the screen along with simulating the physics of the game on the server side. This project is to demonstrate the true power of HTMX.
+      </>}
+      skills={["HTMX","Golang","HTML","CSS"]}>
+
+        <Link url={"https://github.com/DeaSTL/flappybird-htmx"} name="Github"/>
+
+      </ProjectEntry>
 
       <ProjectEntry 
       title={"Discord Mips32 Emulator"} 

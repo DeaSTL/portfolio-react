@@ -11,7 +11,7 @@ export default function Timeline({}: Props) {
       </div>
 
       <TimelineItem year={"2014"} body={`
-      here's a little about how I became the tech enthusiast I am today. My journey began here, during those golden days when I dived into the world of computers by hosting and managing game servers for my friends. While it's fun to play games with your friends it was also pretty satisfying to spend the time it took back then to optimize modify configurations for a more  unique game play experience. In this time I also starded dabbling with c++ after a friend of mine recommended a few tutorial videos to me.
+      My journey into software development began during the golden days, when I dove into the world of computers by hosting and managing game servers for my friends. I found a lot of satisfaction from taking the time to optimize and modify the configurations for a more unique gameplay experience; around this time is when I started to get into programming using C++.
       `}/>
       <TimelineItem year={"2015"} body={`
       After using c++ for a little bit and feeling a bit underwhelmed with what I was able to do using c++, I switched to Pyton. I was almost immediately hooked, building mathematical visualizations, and small games. Python allowed me to really learn the basics of programming with a very low barrier to entry.
