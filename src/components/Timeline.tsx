@@ -32,7 +32,7 @@ My adventure continued as I delved deeper into Java and C#, ventured into graphi
       This is a year of diving into more intermediate projects for me. I was all about pushing the boundaries of what I could create: from custom image encoders like the YAIF image format to building a unique version control system for ComputerCraft programs and even developing a custom socket library in C#. This was also a period of balancing a hefty workload outside of programming and starting my college journey.
       `}/>
       <TimelineItem year={"2019"} body={`
-      saw me busy at UPS, eyeing a management position while also exploring entrepreneurial ventures. Selling 3D models turned out to be quite a success, and although my woodworking business didn't take off as hoped, I learned a lot from the experience. Eventually, I climbed the ranks to management at UPS, but soon realized that the management path wasn't quite right for me.
+      saw me busy at UPS, eyeing a management position while also exploring entrepreneurial ventures. Selling 3D models turned out to be quite a success, and although my woodworking business didn't take off as hoped, I learned a lot from the experience. Eventually, I climbed the ranks to management at UPS.
       `}/>
       <TimelineItem year={"2020"} body={`
       This is the year the world faced the COVID-19 pandemic. It was a challenging time for everyone, myself included. For the first year in a long while, I didn't write a single line of code, as I was overwhelmed with responsibilities at work.
