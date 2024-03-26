@@ -110,6 +110,19 @@ export default function ProjectSection({}: Props) {
 
       </ProjectEntry>
 
+      <ProjectEntry 
+      title={"React Image Gallery"} 
+      body={<>
+        This is a simple image gallery that uses an image api and showcases the images in simple, browsable UI. This is just a mock image gallery UI using vanilla react with no additional components.
+      </>}
+      skills={["React","Tailwind"]}>
+
+        <Link url={"https://github.com/DeaSTL/gallery-viewer-react"} name="Github"/>
+        <Link url={"https://react-gallery.jmhart.dev/"} name="Deployment"/>
+
+      </ProjectEntry>
+
+
       <div className="py-20"/>
     </>
   )
