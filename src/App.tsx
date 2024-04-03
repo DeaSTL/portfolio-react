@@ -33,7 +33,7 @@ function App() {
               <div className="text-2xl pr-2 font-semibold">
               Hi
               </div>
-              I'm Jon-Michael, life long learner, entrepreneur with a passion for technology and programming. I've been programming as a hobby as well as using it for business development for nearly a decade and I still find myself egar to learn new skills!
+              I'm Jon-Michael, life long learner, entrepreneur with a passion for technology and programming. I've been programming as a hobby as well as using it for business development for nearly a decade and I still find myself eagar to learn new skills!
             </div>
           </div>
 
