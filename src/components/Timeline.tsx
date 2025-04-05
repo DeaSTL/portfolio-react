@@ -49,8 +49,13 @@ My adventure continued as I delved deeper into Java and C#, ventured into graphi
 
       The thing about running a local business is the "drop". The "drop" is a seasonal decline in business which effects just about every business but local businesses feel it the hardest. In this time I spent time working on a project called "frate" with a few friends because I was disatisfied with the development process in c++, thus frate was born.
       `}/>
-      <TimelineItem year={"Now"} body={`
-      I'm at a crossroads, seeking to transition from being a business owner to focusing on my roots in software development and marketing. I believe my talents align more with creating impactful software solutions and harnessing the power of digital marketing. This journey has taught me invaluable lessons about resilience, innovation, and a new appreciation for local businesses.
+      <TimelineItem year={"2024"} body={`
+        This is the year that I transform from business owner to software engineer. I know what I am now, and I know what I want to do. I want to build software that makes a difference, that solves real problems, and that helps people. I want to be part of a team that is passionate about technology and innovation. I want to be a software engineer. I started working at city tele coin as a software engineer, taking on the role of Devops engineer out of the gate building out developer scripts, improving developer workflows, creating ci/cd pipelines in Jenkins, and building integration testing environments for full application coverage.
+
+        Towards the end of the year I also spoke at big sky dev conference about one of my side projects that gained some attention online, HTMX Flappybird. This project was originally meant to be a one off joke but turned into quite the project with many new concepts that I have never had to worry about before. One being high frequency, low latency communication over http, multi region deployment, and geolocality based DNS load balancing.
+      `}/>
+      <TimelineItem year={"2025"} body={`
+        As 2024 sunsets, I'm still working at City Tele Coin and learning many new and old technologies outside of work such as Blazor.NET in the web developer space and also some infrastructure tools like Proxmox, Ansible, non-cloud VM provisioning techniques, and linux networking in general. 
       `}/>
       </div>
 
